@@ -1,0 +1,41 @@
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcscmblueprint
+*.xccheckout
+
+# Obj-C/Swift specific
+*.hmap
+
+# App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+# .swiftpm
+# Package.resolved  # optional, some teams commit this
+
+# CocoaPods
+Pods/
+*.xcworkspace
+Podfile.lock   # <-- keep this if you want consistent versions (recommended)
+
+# Carthage
+Carthage/Build/
+
+# Core Data (runtime files)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output

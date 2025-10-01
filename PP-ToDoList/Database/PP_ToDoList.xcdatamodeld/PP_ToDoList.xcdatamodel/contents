@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24G90" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+        <relationship name="categoryItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ToDoTask" inverseName="parentCategory" inverseEntity="ToDoTask"/>
+    </entity>
+    <entity name="ToDoTask" representedClassName="ToDoTask" syncable="YES" codeGenerationType="class">
+        <attribute name="completion" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="String" defaultValueString="9/16/25, 18:02"/>
+        <attribute name="dueDate" attributeType="String" minValueString="0" defaultValueString="9/16/25, 18:02"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="parentCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="categoryItems" inverseEntity="Category"/>
+    </entity>
+</model>
