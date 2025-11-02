@@ -6,14 +6,15 @@
 </head>
 <body>
     <h1>To Do List App</h1>
-    <h2>Description: The goal of this project is to build and design an iOS mobile app for finding the Chinese zodiac sign based on the user’s birth year. </h2>
+    <h2>Description: A classic to do list app built using Swift. Other features of this app include setting a due date for each task, grouping the tasks into a category, and sorting the tasks based on the due date and others.  </h2>
   
     Requirements: XCode
   Demo:
   
-  ![chineseZodiacDemo](https://github.com/user-attachments/assets/5bbf1f55-6e41-406f-ae9b-4429a80ca48c)
+  ![todolistdemo](https://github.com/user-attachments/assets/bb553a7b-e13d-46d6-a0ff-3514102cf51c)
 
-Full Software Development Life Cycle (SDLC) document: https://docs.google.com/document/d/1NU8qZs2TgS7jMY83tpS4Hdeyja9GUo7qSXcEqsD3RxA/edit?tab=t.0
+
+Full Software Development Life Cycle (SDLC) document: https://docs.google.com/document/d/1lCTaWFIBgSXxI9V8H_IMNLxFcyYPsRviGuTFQx4Ko64/edit?usp=sharing
 
   Developed by Nhut Tran
 </body>
